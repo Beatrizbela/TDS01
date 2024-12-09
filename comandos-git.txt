@@ -1,0 +1,58 @@
+Link para baixar o git 
+git-scm.com
+
+Iniciar um novo proleto com git
+git init
+
+Add os arquivos que estão prontos para serem commitados
+git add <nome-arquivo>/ ou .
+
+alterar o ultimo commitados
+git commit --amend -m "<Sua mensagem de commit>"
+
+mostra todos os commits
+git log
+
+mostrar o que foi alterado na ramificação
+git diff
+
+criar uma nova branch a partir da branch atual
+git branch -b <nome-da-nova-branch>
+
+listar as branche mostrar a branch atual (que estamos)
+git branch
+
+muda para esta branch
+git checkout <nome-branch>
+
+git merge
+mergede ramificação (mescla a ramificação)
+
+configurar o usuário do githube
+git config --global user.name "<seu-nome>"
+
+configurar o email do githube
+git config --global user.email "<seu-email-cadastrado-no@git.com>"
+
+mostrar todas configurações que podemos fazer
+git config --listar
+manda nossas alterações locais para o repositório remoto, para cada branch
+git remote add origin <nome-da-branch>
+
+manda nossas alterações locais para o repositório remoto
+git push
+git push origin
+
+pega as alterações do repositório remoto e joga para nossa maquina
+git pull
+git pull origin <nome-da-branch>
+
+atualiza o nosso histórico local de acordo com o histórico salvo Ia no repositório remoto
+git fetch
+
+copiar (clona um repositorio) e cria uma pasta com o clone dentro 
+git clone <url-do-repositorio> <nome-da-pasta>
+
+volta para o arquivo original, cancela todas as modificações feitas 
+git restore <nome-do-arquivo>
+
